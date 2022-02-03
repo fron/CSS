@@ -1,0 +1,30 @@
+*{
+  background: rgba(44,44,44);
+  @font-face 
+    {
+        font-family: newYorker; 
+        src: url('fonts/Cygnet.ttf');
+    }
+   
+ }
+h1 {
+    color:ghostwhite;
+    text-decoration: none;
+    position: absolute;
+    top: 200px;
+    left: 40%;
+    font: 55px newYorker, Sans-Serif; 
+    line-height: 24px;
+}
+
+p { color:ghostwhite;
+    position: absolute;
+    top: 245px;
+    left: 43%;
+    font: 55px newYorker, Sans-Serif; 
+    line-height: 24px;
+}
+
+span {
+    color:red;
+}
